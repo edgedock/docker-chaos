@@ -1,0 +1,12 @@
+{
+  "name": "pattern-membomb",
+  "services": [
+    {
+      "serviceUrl": "docker-killer-membomb",
+      "serviceOrgid": "$HZN_ORG_ID",
+      "serviceArch": "arm",
+      "serviceVersions": [ { "version": "1.0.1" } ]
+    }
+  ]
+}
+

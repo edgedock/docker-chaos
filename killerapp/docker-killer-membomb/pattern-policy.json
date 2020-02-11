@@ -1,0 +1,18 @@
+{
+  "label": "TEST Business Policy for arm",
+  "description": "A super-simple sample Horizon Business Policy",
+  "services": [
+    {
+      "name": "docker-killer-membomb",
+      "org": "$HZN_ORG_ID",
+      "arch": "arm",
+      "serviceVersions": [ { "version": "1.0.1" } ]
+    }
+  ],
+  "properties": [
+  ],
+  "constraints": [
+    "chaos_test == \"yes\""
+  ]
+}
+

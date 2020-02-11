@@ -1,0 +1,7 @@
+{
+    "MetadataVars": {
+        "DOCKER_IMAGE_BASE": "andyrob/docker-killer-kernelpanic",
+        "SERVICE_NAME": "docker-killer-kernelpanic",
+        "SERVICE_VERSION": "1.0.0"
+    }
+}
