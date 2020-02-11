@@ -12,4 +12,5 @@ RUN \
   rm -rf /var/cache/apk/*
 
 EXPOSE 5001
-CMD /test.sh membomb
+CMD ["membomb"]
+ENTRYPOINT ["/test.sh"]
