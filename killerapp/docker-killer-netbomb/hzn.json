@@ -1,6 +1,6 @@
 {
     "MetadataVars": {
-        "DOCKER_IMAGE_BASE": "andyrob/docker-killer-netbomb",
+        "DOCKER_IMAGE_BASE": "<docker_repo>/docker-killer-netbomb",
         "SERVICE_NAME": "docker-killer-netbomb",
         "SERVICE_VERSION": "1.0.0"
     }
