@@ -1,3 +1,6 @@
+ifndef DOCKER_BASE
+$(error DOCKER_BASE is not set)
+endif
 
 clean-docker-all:
 	-docker rm -f `docker ps -aq` 2>/dev/null || :
